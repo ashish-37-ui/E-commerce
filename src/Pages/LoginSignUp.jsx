@@ -3,10 +3,10 @@ import "./CSS/LoginSignup.css"
 
 const LoginSignUp = () => {
   return (
-    <div className='LoginSignup'>
+    <div className='loginSignup'>
       <div className='loginSignup-container'>
         <h1>Sign Up</h1>
-        <div className='LoginSignup-fields'>
+        <div className='loginSignup-fields'>
           <input type='text' placeholder='Your Name' />
           <input type='email' placeholder='Your Email' />
           <input type='password' placeholder='Your Password' />
@@ -14,8 +14,8 @@ const LoginSignUp = () => {
 
         </div>
         <button>Continue</button>
-        <p className='LoginSignup-login'>Already have an account? <span>Login here</span></p>
-        <div className='LoginSignup-agree'>
+        <p className='loginSignup-login'>Already have an account? <span>Login here</span></p>
+        <div className='loginSignup-agree'>
           <input type='checkbox' name='' id='' />
           <p>By continuing, I agree to the terms of rules & privacy policy</p>
         </div>
